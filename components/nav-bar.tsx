@@ -12,6 +12,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { usePathname } from "next/navigation";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -23,6 +24,8 @@ const navigation = [
 ];
 
 export default function NavBar() {
+  const pathname = usePathname();
+
   return (
     <nav className="bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -46,16 +49,17 @@ export default function NavBar() {
                 href={item.href}
                 className={cn(
                   "text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors",
-                  item.name === "Home" &&
-                    "text-blue-600 underline underline-offset-8"
+                  pathname === item.href && "underline underline-offset-5 text-blue-600"
                 )}
               >
                 {item.name}
               </Link>
             ))}
+            <Link href="/contact">
             <Button className="bg-[#3b82f6] hover:bg-blue-700 rounded-full">
               Contact US
             </Button>
+            </Link>
           </div>
 
           {/* Mobile menu sheet */}
@@ -78,7 +82,7 @@ export default function NavBar() {
                       href={item.href}
                       className={cn(
                         "text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-medium transition-colors",
-                        item.name === "Home" && "text-blue-600"
+                        pathname === item.href && "underline underline-offset-5 text-blue-600"
                       )}
                     >
                       {item.name}
@@ -96,3 +100,4 @@ export default function NavBar() {
     </nav>
   );
 }
+

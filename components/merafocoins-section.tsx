@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export function MerafocoinsSection() {
   return (
@@ -11,18 +11,21 @@ export function MerafocoinsSection() {
               Empowering Communities Through Blockchain Knowledge
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-500">
-              Merafocoins is our initiative to educate and empower Basotho communities with blockchain technology. Learn
-              about cryptocurrencies, smart contracts, and the future of digital finance.
+              Merafocoins is our initiative to educate and empower Basotho
+              communities with blockchain technology. Learn about
+              cryptocurrencies, smart contracts, and the future of digital
+              finance.
             </p>
             <div className="mt-8 space-x-4">
-              <Button className="bg-[#3b82f6] hover:bg-blue-700">Learn More</Button>
+              <Button className="bg-[#3b82f6] hover:bg-blue-700">
+                Learn More
+              </Button>
               <Button variant="outline">Join a Seminar</Button>
             </div>
           </div>
           <div className="mt-8 lg:mt-0">
             <img
-            src="https://placehold.co/600x400.png"
- 
+              src="https://placehold.co/600x400.png"
               alt="Merafocoins Initiative"
               width={600}
               height={400}
@@ -32,6 +35,5 @@ export function MerafocoinsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

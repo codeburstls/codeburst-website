@@ -1,5 +1,11 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Code, Coins, Laptop } from "lucide-react"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Code, Coins, Laptop } from "lucide-react";
 
 const services = [
   {
@@ -14,17 +20,20 @@ const services = [
   },
   {
     title: "Digital Education",
-    description: "Empowering communities through blockchain knowledge and skills.",
+    description:
+      "Empowering communities through blockchain knowledge and skills.",
     icon: <Laptop className="h-8 w-8 text-blue-500" />,
   },
-]
+];
 
 export function ServicesSection() {
   return (
     <section className="py-10 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Our Services</h2>
+          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            Our Services
+          </h2>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
             Discover how CodeB can help you leverage technology for success.
           </p>
@@ -46,6 +55,5 @@ export function ServicesSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

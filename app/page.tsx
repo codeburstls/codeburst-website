@@ -9,11 +9,11 @@ import { Footer } from "@/components/footer";
 export default function Home() {
   return (
     <main className="min-h-screen">
-    <NavBar />
+    
     <HeroSection />
     <ServicesSection/>
     <MerafocoinsSection/>
    
-    <Footer/>
+    
     </main>);
 }
