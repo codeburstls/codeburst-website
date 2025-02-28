@@ -111,7 +111,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-5 border-t border-gray-700 pt-5">
-          <p className="text-base text-gray-700 xl:text-center">&copy; 2025 CodeBurst LS. All rights reserved. Developed by <Link href="https://mswati.netlify.app" className="hover:text-blue-500">Mswati Tshabalala</Link></p>
+          <p className="text-base text-gray-700 xl:text-center">&copy; 2025 CodeBurst LS. All rights reserved.</p>
         </div>
       </div>
     </footer>
