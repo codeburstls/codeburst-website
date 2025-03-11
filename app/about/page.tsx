@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Eye, Shield } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -22,7 +23,7 @@ export default function AboutPage() {
             <div className="relative">
               <dt>
                 <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                  {/* Icon */}
+                <Shield className="h-6 w-6" />
                 </div>
                 <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                   Our Mission
@@ -37,7 +38,7 @@ export default function AboutPage() {
             <div className="relative">
               <dt>
                 <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                  {/* Icon */}
+                  <Eye className="h-6 w-6" />
                 </div>
                 <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                   Our Vision

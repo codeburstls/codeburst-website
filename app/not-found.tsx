@@ -10,7 +10,7 @@ export default function NotFound() {
       <p className="text-xl text-gray-600 mb-8">
         Oops! The page you're looking for doesn't exist.
       </p>
-      <Button asChild>
+      <Button className="bg-blue-600 hover:bg-blue-700" asChild>
         <Link href="/">Go back home</Link>
       </Button>
     </div>
