@@ -26,7 +26,7 @@ const services = [
   },
 ];
 
-const whyChooseCodeB = [
+const whychooseCodeburst = [
   {
     title: "Expert Team",
     description: "Years of industry experience and a passion for innovation.",
@@ -59,7 +59,7 @@ export default function ServicesPage() {
             Innovative Solutions for Your Digital Needs
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Discover how CodeB can help you leverage technology for success.
+            Discover how CodeBurst can help you leverage technology for success.
           </p>
         </div>
 
@@ -83,10 +83,10 @@ export default function ServicesPage() {
 
         <div className="mt-20 mx-auto max-w-7xl">
           <h3 className="text-2xl font-bold text-gray-900 lg:text-center mb-10">
-            Why Choose CodeB?
+            Why Choose CodeBurst?
           </h3>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {whyChooseCodeB.map((reason, index) => (
+            {whychooseCodeburst.map((reason, index) => (
               <Card key={index}>
                 <CardHeader>
                   <CardTitle className="flex items-center space-x-2">

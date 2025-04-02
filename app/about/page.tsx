@@ -23,7 +23,7 @@ export default function AboutPage() {
             <div className="relative">
               <dt>
                 <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
-                <Shield className="h-6 w-6" />
+                  <Shield className="h-6 w-6" />
                 </div>
                 <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                   Our Mission
@@ -58,7 +58,7 @@ export default function AboutPage() {
               Our Team
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Meet the Innovators Behind CodeB
+              Meet the Innovators Behind CodeBurst
             </p>
           </div>
 

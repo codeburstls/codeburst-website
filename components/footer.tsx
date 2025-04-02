@@ -10,7 +10,7 @@ export function Footer() {
             <img
               className="h-10"
               src="/cb-logo.jpg"
-              alt="CodeB Logo"
+              alt="CodeBurst Logo"
             />
             <p className="text-gray-900 text-base">Driving digital solutions and innovation in Lesotho and beyond.</p>
             <div className="flex space-x-6">
@@ -76,12 +76,12 @@ export function Footer() {
                 <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">Company</h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link href="#" className="text-base text-gray-800 hover:text-blue-600">
+                    <Link href="/about" className="text-base text-gray-800 hover:text-blue-600">
                       About
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-base text-gray-700 hover:text-blue-600">
+                    <Link href="/blog" className="text-base text-gray-700 hover:text-blue-600">
                       Blog
                     </Link>
                   </li>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link"
 
 export function MerafocoinsSection() {
   return (
@@ -17,9 +18,11 @@ export function MerafocoinsSection() {
               finance.
             </p>
             <div className="mt-8 space-x-4">
+              <Link href="/merafocoins">
               <Button className="bg-[#3b82f6] hover:bg-blue-700">
                 Learn More
               </Button>
+              </Link>
               <Button variant="outline">Join a Seminar</Button>
             </div>
           </div>

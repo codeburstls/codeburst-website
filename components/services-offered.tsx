@@ -35,7 +35,7 @@ export function ServicesSection() {
             Our Services
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-            Discover how CodeB can help you leverage technology for success.
+            Discover how CodeBurst can help you leverage technology for success.
           </p>
         </div>
         <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
