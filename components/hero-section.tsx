@@ -26,10 +26,10 @@ export default function  HeroSection() {
               </div>
         </div>
         <img
-          src="https://placehold.co/600x400.png"
+          src="./image(4).png"
  
           alt="Hero"
-          className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+          className="rounded-lg w-600 h-400"
         />
       </div>
     </div>

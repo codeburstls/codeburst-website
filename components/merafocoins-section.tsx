@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link"
 
@@ -6,7 +5,7 @@ export function MerafocoinsSection() {
   return (
     <section className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-20  lg:items-center ">
           <div>
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
               Empowering Communities Through Blockchain Knowledge
@@ -26,13 +25,12 @@ export function MerafocoinsSection() {
               <Button variant="outline">Join a Seminar</Button>
             </div>
           </div>
-          <div className="mt-8 lg:mt-0">
+          <div className="mt-8 lg:mt-0 lg:ml-[200px]">
             <img
-              src="https://placehold.co/600x400.png"
+              src="./image(7).png"
               alt="Merafocoins Initiative"
-              width={600}
-              height={400}
-              className="rounded-lg shadow-lg"
+              
+              className="rounded-lg "
             />
           </div>
         </div>

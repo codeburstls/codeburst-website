@@ -76,9 +76,9 @@ export default function MerafocoinsPage() {
               </Button>
             </div>
           </div>
-          <div className="relative h-80 w-full rounded-lg overflow-hidden shadow-lg">
+          <div className="relative h-80 w-full rounded-lg overflow-hidden ">
             <Image
-              src="https://placehold.co/600x400.png"
+              src="/index.jpg"
               alt="Merafocoins Visualization"
               fill
               className="object-cover"

@@ -122,12 +122,12 @@ export default function SolutionsPage() {
         </div>
 
         <Tabs defaultValue="enterprise" className="mb-16">
-          <TabsList className="grid grid-cols-2 md:grid-cols-4 mb-8">
+          <TabsList className="grid grid-cols-2 md:grid-cols-4 mb-8 bg-white">
             {solutionCategories.map((category) => (
               <TabsTrigger
                 key={category.id}
                 value={category.id}
-                className="data-[state=active]:text-blue-600"
+                className="data-[state=active]:text-blue-600 bg-white"
               >
                 {category.title}
               </TabsTrigger>
@@ -161,7 +161,7 @@ export default function SolutionsPage() {
                 Our Approach
               </h2>
               <p className="mb-4 text-gray-600">
-                At CodeB, we believe in a collaborative and iterative approach
+                At CodeBurst, we believe in a collaborative and iterative approach
                 to solution development. We work closely with our clients to
                 understand their unique challenges and objectives, ensuring that
                 our solutions are perfectly aligned with their business goals.
@@ -178,9 +178,9 @@ export default function SolutionsPage() {
                 intuitive to use.
               </p>
             </div>
-            <div className="relative h-80 w-full rounded-lg overflow-hidden shadow-lg">
+            <div className="relative h-80 w-full rounded-lg overflow-hidden ">
               <Image
-                src="https://placehold.co/600x400.png"
+                src="/image(4).png"
                 alt="Our Approach Visualization"
                 fill
                 className="object-cover"
