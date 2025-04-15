@@ -11,25 +11,25 @@ import Image from "next/image";
 const solutionCategories = [
   {
     id: "enterprise",
-    title: "Enterprise Solutions",
+    title: "Education Solutions",
     solutions: [
       {
-        title: "Digital Transformation",
-        description: "Modernize your business operations",
+        title: "Career Helper",
+        description: "Tech stack: Dart & Flutter - Runns on Adroid & ios",
         content:
-          "Our comprehensive digital transformation services help enterprises modernize legacy systems, implement cloud solutions, and optimize business processes for the digital age.",
+          "This platform helps high school graduates find tertiary institutes and courses they qualify for based on their LGCSE results, the system generates a list of matching institutions and programs. It also provides prospectuses for reference, simplifying the application process.",
       },
       {
-        title: "Enterprise Resource Planning",
-        description: "Streamline business operations",
+        title: "Student Chat App",
+        description: "Tech Stack: Dart, Flutter, Django , WebSockets.",
         content:
-          "Custom ERP solutions designed to integrate and manage core business processes in real-time, enhancing efficiency and providing actionable insights.",
+          "This is a cross-platform chat app (Android & iOS) for students to discuss course topics. Chats are stored securely in our database (not on devices) and serve as a reference repository. Features include real-time messaging and end-to-end encryption.",
       },
       {
-        title: "Cybersecurity Framework",
-        description: "Protect your digital assets",
+        title: "E-Learn System",
+        description: "Tech Stack: Vue.js , Django.",
         content:
-          "Advanced cybersecurity solutions that safeguard your enterprise from evolving threats, ensuring data integrity and business continuity.",
+          "A customizable eLearning solution for individuals and organizations to conduct online learning. After registration, school owners can enroll students and manage digital learning activities.",
       },
     ],
   },
@@ -39,9 +39,9 @@ const solutionCategories = [
     solutions: [
       {
         title: "Smart Contracts",
-        description: "Automate agreements with code",
+        description: "Tech Stack: Next.js, Django, Solana (Anchor Framework).",
         content:
-          "Develop and deploy secure smart contracts that automatically execute when predefined conditions are met, eliminating intermediaries and reducing costs.",
+          "This platform digitally issues and manages student scholarships using blockchain technology for secure verification via Solana's immutable ledger. Developed for clients leveraging our blockchain expertise.",
       },
       {
         title: "Supply Chain Tracking",
@@ -62,10 +62,10 @@ const solutionCategories = [
     title: "AI & Machine Learning",
     solutions: [
       {
-        title: "Predictive Analytics",
-        description: "Forecast future trends",
+        title: "Crime Reporting System",
+        description: "Tech Stack: Next.js, Django and Python ML",
         content:
-          "Leverage historical data and machine learning algorithms to predict future outcomes, identify patterns, and make data-driven decisions.",
+          "This platform leverages machine learning to instantly identify perpetrators and alert nearby police stations, enabling rapid crime response. By analyzing real-time data, it helps law enforcement act decisively to prevent escalation.",
       },
       {
         title: "Natural Language Processing",
@@ -83,13 +83,13 @@ const solutionCategories = [
   },
   {
     id: "iot",
-    title: "IoT Solutions",
+    title: "Internal Tools & Solutions",
     solutions: [
       {
-        title: "Smart City Infrastructure",
-        description: "Connected urban environments",
+        title: "Project Management System",
+        description: "Tech Stack: Java, MySQL",
         content:
-          "IoT solutions for cities that enhance public services, improve resource management, and create more sustainable and livable urban spaces.",
+          "A centralized platform to streamline project development—from design to deployment—by aggregating all artifacts, processes, and workflows. Born from our team’s firsthand challenges, it eliminates fragmentation and boosts efficiency.",
       },
       {
         title: "Industrial IoT",
