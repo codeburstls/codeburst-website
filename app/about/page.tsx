@@ -62,7 +62,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-12">
             <div className="flex flex-col items-center space-y-4">
               <img
                 src="Kaara.jpeg"
@@ -116,35 +116,14 @@ export default function AboutPage() {
               <div className="space-y-1 text-center">
                 <h3 className="text-xl font-semibold">Mr. Shelile Malefetsane</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                Director of Technology
+                Director of Technology & Engineering
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Mr. Shelile brings a strong background in computer engineering, holding a diploma in Computer Systems Engineering and currently pursuing a Bachelor of Engineering Technology in Computer Engineering. Career highlights include an IT internship at Mothae and teaching robotics at the Girls Coding Academy.
-                  He has developed blockchain MVPs on Solana and Ethereum, and holds certifications in AI, machine learning, and Python.
-                  They use their technical knowledge to promote innovative, scalable, cutting-edge solutions.
+                Malefetsane Shelile is a proactive computer engineering professional with a Diploma in Computer Systems Engineering and currently completing a BEngTech in Computer Engineering. He brings hands‑on experience in IT support, robotics instruction, and has delivered blockchain MVPs on Solana and Ethereum. Certified in AI, Machine Learning and Python via the Samsung Innovation Campus at Lerotholi Polytechnic, he transforms technical expertise into scalable, innovative solutions.
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center space-y-4">
-              <img
-                src="https://placehold.co/120x120.png"
-                width={120}
-                height={120}
-                alt="Mr. Tefelo Khoabeng"
-                className="rounded-full"
-                style={{ aspectRatio: "120/120", objectFit: "cover" }}
-              />
-              <div className="space-y-1 text-center">
-                <h3 className="text-xl font-semibold">Mr. Tefelo Khoabeng</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                Director of UI/UX Design
-                </p>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Tefelo is the creative force behind our designs, ensuring our
-                  products are both beautiful and user-friendly.
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
