@@ -25,7 +25,7 @@ const blogPosts = [
   {
     title: "Empowering Basotho Youth Through Digital Education",
     description:
-      "How CodeB is working to bridge the digital divide in Lesotho.",
+      "How CodeBurst is working to bridge the digital divide in Lesotho.",
     date: "2025-01-02",
     readTime: "6 min read",
   },
