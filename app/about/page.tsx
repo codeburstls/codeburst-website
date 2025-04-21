@@ -62,20 +62,20 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-12">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-12">
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="https://placehold.co/120x120.png"
+                src="Kaara.jpeg"
                 width={120}
                 height={120}
-                alt="John Doe"
+                alt="Mr. Tlokotsi Potloane"
                 className="rounded-full"
                 style={{ aspectRatio: "120/120", objectFit: "cover" }}
               />
               <div className="space-y-1 text-center">
-                <h3 className="text-xl font-semibold">John Doe</h3>
+                <h3 className="text-xl font-semibold">Mr. Tlokotsi Potloane</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Founder & CEO
+                Director of Executive Management
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   John is the visionary behind our company, leading the team
@@ -85,66 +85,45 @@ export default function AboutPage() {
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="https://placehold.co/120x120.png"
+                src="./V.jpg"
                 width={120}
                 height={120}
-                alt="Jane Smith"
+                alt="Ms. Vikile Hata-hata"
                 className="rounded-full"
                 style={{ aspectRatio: "120/120", objectFit: "cover" }}
               />
               <div className="space-y-1 text-center">
-                <h3 className="text-xl font-semibold">Jane Smith</h3>
+                <h3 className="text-xl font-semibold">Ms. Vikile Hata-hata</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Lead Designer
+                Director of Information Technology
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Jane is the creative force behind our designs, ensuring our
-                  products are both beautiful and user-friendly.
+                Ms. Hata-hata brings over three years of experience in IT infrastructure, network, and system administration. She holds a diploma in Computer Systems Engineering and currently works as an IT Technician at Mothae Diamonds.
+
+                Expanding her expertise in cybersecurity and Python, and holding certifications in Fortinet and CompTIA Security, she combines technical proficiency with a proactive approach to evolving enterprise technologies.
                 </p>
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="https://placehold.co/120x120.png"
+                src="verts.jpeg"
                 width={120}
                 height={120}
-                alt="Michael Johnson"
+                alt="Mr. Shelile Malefetsane"
                 className="rounded-full"
                 style={{ aspectRatio: "120/120", objectFit: "cover" }}
               />
               <div className="space-y-1 text-center">
-                <h3 className="text-xl font-semibold">Michael Johnson</h3>
+                <h3 className="text-xl font-semibold">Mr. Shelile Malefetsane</h3>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Lead Engineer
+                Director of Technology & Engineering
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Michael is the technical mastermind behind our products,
-                  ensuring they are built with the latest technologies and best
-                  practices.
+                Malefetsane Shelile is a proactive computer engineering professional with a Diploma in Computer Systems Engineering and currently completing a BEngTech in Computer Engineering. He brings hands‑on experience in IT support, robotics instruction, and has delivered blockchain MVPs on Solana and Ethereum. Certified in AI, Machine Learning and Python via the Samsung Innovation Campus at Lerotholi Polytechnic, he transforms technical expertise into scalable, innovative solutions.
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center space-y-4">
-              <img
-                src="https://placehold.co/120x120.png"
-                width={120}
-                height={120}
-                alt="Emily Davis"
-                className="rounded-full"
-                style={{ aspectRatio: "120/120", objectFit: "cover" }}
-              />
-              <div className="space-y-1 text-center">
-                <h3 className="text-xl font-semibold">Emily Davis</h3>
-                <p className="text-gray-500 dark:text-gray-400">
-                  Product Manager
-                </p>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Emily is the driving force behind our product roadmap,
-                  ensuring we deliver the features and solutions our customers
-                  need.
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
@@ -10,22 +11,22 @@ import {
 
 const features = [
   {
-    title: "Decentralized Transactions",
+    title: "Knowledge Exchange Events & Hackathons",
     description: "Secure and transparent",
     content:
-      "Merafocoins operates on a decentralized network, ensuring that all transactions are secure, transparent, and immutable.",
-  },
+     "Quarterly in‑person and virtual gatherings (“MerafoCon”) where experts present on blockchain use cases, DeFi innovations, and NFT trends—paired with workshops on smart‑contract development and token economics."
+    },
   {
-    title: "Community Governance",
+    title: "Community‑Owned Governance (DAO)",
     description: "Democratic decision-making",
     content:
-      "Token holders can participate in governance decisions, voting on proposals that shape the future of the Merafocoins ecosystem.",
-  },
+  "A decentralized autonomous organization that gives every token holder (with special youth‑focused pools) voting rights over project roadmaps, grant allocations, and platform fees—ensuring young voices steer Merafocoins’ evolution"
+    },
   {
-    title: "Low Transaction Fees",
+    title: "NFT Creative Hub",
     description: "Cost-effective transfers",
     content:
-      "Enjoy minimal transaction fees compared to traditional financial systems, making Merafocoins ideal for both micro-transactions and large transfers.",
+"A user‑friendly minting platform where artists and musicians can tokenize their work as NFTs—complete with built‑in metadata, royalty settings, and on‑chain provenance—so emerging creators can showcase, sell, and earn ongoing royalties from anywhere."
   },
   {
     title: "Educational Resources",
@@ -53,27 +54,26 @@ export default function MerafocoinsPage() {
               What are Merafocoins?
             </h2>
             <p className="mb-4 text-gray-600">
-              Merafocoins is our innovative blockchain-based digital currency
-              designed to empower communities, facilitate secure transactions,
-              and promote financial inclusion in regions with limited access to
-              traditional banking services.
+            Merafocoins, launched by Codeburst in Lesotho, is a pioneering Web3.0 technology venture dedicated to bridging the gap between today’s centralized Web2 platforms and the decentralized internet of tomorrow. By architecting a “meta‑internet” that operates across distributed server networks, we leverage the power of cryptocurrencies, non‑fungible tokens (NFTs), and decentralized finance (DeFi) protocols to deliver solutions that are secure, transparent, and resilient.
             </p>
             <p className="mb-6 text-gray-600">
-              Built on cutting-edge blockchain technology, Merafocoins combines
-              the security and transparency of distributed ledger systems with
-              user-friendly interfaces, making digital currency accessible to
-              everyone regardless of technical expertise.
+            Our mission is to empower individuals, businesses, and communities in Lesotho—and beyond—with trustless applications that restore data sovereignty, streamline digital interactions, and unlock new economic opportunities. Through strategic partnerships, community-driven governance, and open‑source innovation, Merafocoins is committed to accelerating mainstream adoption of Web3.0 technologies and redefining the future of online collaboration.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-[#3b82f6] hover:bg-blue-700 rounded-full">
-                Get Started
-              </Button>
-              <Button
-                variant="outline"
+                <Button
+                className="bg-[#3b82f6] hover:bg-blue-700 rounded-full bottom-20 "
+                onClick={() => {
+                  window.location.href = "https://www.facebook.com/merafocoins";
+                }}
+                >
+                Learn More
+                </Button>
+              {/* <a
+               href="https://www.facebook.com/merafocoins"
                 className="border-blue-500 text-blue-600 hover:bg-blue-50 rounded-full"
               >
                 Learn More
-              </Button>
+              </a> */}
             </div>
           </div>
           <div className="relative h-80 w-full rounded-lg overflow-hidden ">
