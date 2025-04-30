@@ -15,7 +15,7 @@ const solutionCategories = [
     solutions: [
       {
         title: "Career Helper",
-        description: "Tech stack: Dart & Flutter - Runns on Adroid & ios",
+        description: "Tech stack: Dart & Flutter - Runs on Android & IOS",
         content:
           "This platform helps high school graduates find tertiary institutes and courses they qualify for based on their LGCSE results, the system generates a list of matching institutions and programs. It also provides prospectuses for reference, simplifying the application process.",
       },
@@ -49,12 +49,7 @@ const solutionCategories = [
         content:
           "This system will be more convenient in managing educational content that is : academic records, certifications, and projects. Using a Decentralised Autonomous Organisation (DAO) workflow framework to encourage mprove academic excellence. ",
       },
-      {
-        title: "",
-        description: "",
-        content: ""
-          //"Create digital representations of real-world assets on the blockchain, enabling fractional ownership and new investment opportunities.",
-      },
+      
     ],
   },
   {
@@ -67,13 +62,13 @@ const solutionCategories = [
         content:
           "This platform leverages machine learning to instantly identify perpetrators and alert nearby police stations, enabling rapid crime response. By analyzing real-time data, it helps law enforcement act decisively to prevent escalation.",
       },
-      {
+     /* {
         title: "Natural Language Processing",
         description: "Human-computer interaction",
         content:
           "Implement NLP solutions that enable computers to understand, interpret, and generate human language for chatbots, sentiment analysis, and more.",
       },
-      /*{
+      {
         title: "Computer Vision",
         description: "Automated visual understanding",
         content:
