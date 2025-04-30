@@ -78,8 +78,10 @@ export default function AboutPage() {
                 Director of Executive Management
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  John is the visionary behind our company, leading the team
-                  with his passion and expertise.
+                Mr Potloane holds a Diploma in Computer Systems Engineering and is currently pursuing a B.Eng in Computer Engineering. He brings years of experience in full-stack web and mobile application development, with expertise spanning technologies such as React, Python, and SQL.
+
+                Career highlights include leading blockchain (Web3) development projects on Ethereum and Solana.
+                He uses his technical versatility to drive CodeB’s mission of delivering innovative digital solutions.
                 </p>
               </div>
             </div>
@@ -98,9 +100,9 @@ export default function AboutPage() {
                 Director of Information Technology
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                Ms. Hata-hata brings over three years of experience in IT infrastructure, network, and system administration. She holds a diploma in Computer Systems Engineering and currently works as an IT Technician at Mothae Diamonds.
+                Ms. Hata-hata brings over three years of experience in IT infrastructure, network, and system administration. She holds a Diploma in Computer Systems Engineering and  currently serving as an IT Technician.
 
-                Expanding her expertise in cybersecurity and Python, and holding certifications in Fortinet and CompTIA Security, she combines technical proficiency with a proactive approach to evolving enterprise technologies.
+                Expanding her expertise in cybersecurity and Python to support systems automation, with certifications in Fortinet and CompTIA Security, she combines technical proficiency with a proactive approach to evolving enterprise technologies.
                 </p>
               </div>
             </div>
@@ -119,7 +121,7 @@ export default function AboutPage() {
                 Director of Technology & Engineering
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                Malefetsane Shelile is a proactive computer engineering professional with a Diploma in Computer Systems Engineering and currently completing a BEngTech in Computer Engineering. He brings hands‑on experience in IT support, robotics instruction, and has delivered blockchain MVPs on Solana and Ethereum. Certified in AI, Machine Learning and Python via the Samsung Innovation Campus at Lerotholi Polytechnic, he transforms technical expertise into scalable, innovative solutions.
+                Mr.Shelile is a computer engineering professional with a Diploma in Computer Systems Engineering and currently completing a B.Eng Tech in Computer Engineering. He brings hands‑on experience in IT support, robotics instruction, and has delivered blockchain MVPs on Solana and Ethereum. Certified in AI, Machine Learning and Python via the Samsung Innovation Campus at Lerotholi Polytechnic, he transforms technical expertise into scalable, innovative solutions.
                 </p>
               </div>
             </div>

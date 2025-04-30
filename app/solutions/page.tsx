@@ -38,22 +38,22 @@ const solutionCategories = [
     title: "Blockchain Solutions",
     solutions: [
       {
-        title: "Smart Contracts",
+        title: "Bokamoso Edu",
         description: "Tech Stack: Next.js, Django, Solana (Anchor Framework).",
         content:
           "This platform digitally issues and manages student scholarships using blockchain technology for secure verification via Solana's immutable ledger. Developed for clients leveraging our blockchain expertise.",
       },
       {
-        title: "Supply Chain Tracking",
-        description: "End-to-end visibility",
+        title: "Bohlale Excellence Pay (BoXP)",
+        description: "Tech Stack: Next.js, Solana",
         content:
-          "Blockchain-based supply chain solutions that provide real-time tracking, authentication, and transparency from manufacturer to consumer.",
+          "This system will be more convenient in managing educational content that is : academic records, certifications, and projects. Using a Decentralised Autonomous Organisation (DAO) workflow framework to encourage mprove academic excellence. ",
       },
       {
-        title: "Tokenization Platforms",
-        description: "Digitize assets securely",
-        content:
-          "Create digital representations of real-world assets on the blockchain, enabling fractional ownership and new investment opportunities.",
+        title: "",
+        description: "",
+        content: ""
+          //"Create digital representations of real-world assets on the blockchain, enabling fractional ownership and new investment opportunities.",
       },
     ],
   },
@@ -73,12 +73,12 @@ const solutionCategories = [
         content:
           "Implement NLP solutions that enable computers to understand, interpret, and generate human language for chatbots, sentiment analysis, and more.",
       },
-      {
+      /*{
         title: "Computer Vision",
         description: "Automated visual understanding",
         content:
           "Develop systems that can interpret and act on visual information, from facial recognition to quality control in manufacturing.",
-      },
+      },*/
     ],
   },
   {
