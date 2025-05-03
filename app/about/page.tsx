@@ -108,7 +108,7 @@ export default function AboutPage() {
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="verts.jpeg"
+                src="Shelile..jpg"
                 width={120}
                 height={120}
                 alt="Mr. Shelile Malefetsane"
