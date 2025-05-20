@@ -156,7 +156,7 @@ export default function MerafocoinsPage() {
             Join the Merafocoins Ecosystem
           </h2>
           <p className="mb-8 max-w-3xl mx-auto text-gray-600">
-            Whether you're an individual looking to participate in the future of
+            Whether you are an individual looking to participate in the future of
             finance, a business seeking efficient payment solutions, or a
             developer interested in building on our platform, Merafocoins offers
             opportunities for everyone.
