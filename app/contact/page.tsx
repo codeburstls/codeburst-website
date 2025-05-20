@@ -66,7 +66,7 @@ export default function ContactPage() {
             Get in Touch
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            We'd love to hear from you. Fill out the form below and we'll get
+            We would love to hear from you. Fill out the form below and we will get
             back to you as soon as possible.
           </p>
         </div>

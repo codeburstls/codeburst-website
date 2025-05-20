@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+
 import { Eye, Shield } from "lucide-react";
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
             Driving Digital Innovation in Lesotho
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            CodeB is at the forefront of technological advancement, bringing
+            CodeBurst is at the forefront of technological advancement, bringing
             cutting-edge solutions to Lesotho and beyond.
           </p>
         </div>
