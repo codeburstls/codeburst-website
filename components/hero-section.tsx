@@ -26,7 +26,7 @@ export default function  HeroSection() {
               </div>
         </div>
         <img 
-          src="./merafo.png"
+          src="./image(4).png"
  
           alt="Hero"
           className="rounded-lg w-600 h-400"
