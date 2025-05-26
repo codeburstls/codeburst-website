@@ -58,7 +58,7 @@ export default function AboutPage() {
               Our Team
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Executive Committee - Innovators Behind CodeB
+              Executive Committee - Innovators Behind CodeBurst
             </p>
           </div>
 
