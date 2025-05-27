@@ -78,7 +78,7 @@ export default function AboutPage() {
                 Director of Executive Management
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-justify">
-                Mr Potloane holds a Diploma in Computer Systems Engineering and is currently pursuing a B.Eng in Computer Engineering. He brings years of experience in full-stack web and mobile application development, with expertise spanning technologies such as React, Python, and SQL.
+                Mr Potloane holds a Diploma in Computer Systems Engineering and is currently pursuing a B.Eng in Computer Engineering. Mr. Potloane has years of experience in full-stack web and mobile application development, with expertise spanning technologies such as React, Python, and SQL.
 
                 Career highlights include leading blockchain (Web3) development projects on Ethereum and Solana.
                 He uses his technical versatility to drive CodeB’s mission of delivering innovative digital solutions.
@@ -101,10 +101,10 @@ export default function AboutPage() {
                 Director of Information Technology
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
-                Ms. Hata-hata brings over three years of experience in IT infrastructure, network, and system administration. She holds a Diploma in Computer Systems Engineering and  currently serving as an IT Technician.
+                Ms. Hata-hata brings over three years of experience in IT infrastructure, networks, and system administration. She holds a Diploma in Computer Systems Engineering and  currently serving as an IT Technician.
 
-                Expanding her expertise in cybersecurity and Python to support systems automation, with certifications in Fortinet and CompTIA Security. Passionate about emerging technologies, particularly AI and blockchain,
-                and has a strong commitment to continuous learning and adaptability.
+                Vikile is expanding her expertise with certifications in cybersecurity professional with focus on network security and DevSecOps, as well as Python for systems automation. Passionate about emerging technologies, particularly AI and blockchain,
+                and commitment to continuous learning and adaptability.
                 </p>
               </div>
             </div>
@@ -123,7 +123,7 @@ export default function AboutPage() {
                 Director of Technology & Engineering
                 </p>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-justify">
-                Mr.Shelile is a computer engineering professional with a Diploma in Computer Systems Engineering and currently completing a B.Eng Tech in Computer Engineering. He brings hands‑on experience in IT support, robotics instruction, and has delivered blockchain MVPs on Solana and Ethereum. Certified in AI, Machine Learning and Python via the Samsung Innovation Campus at Lerotholi Polytechnic, he transforms technical expertise into scalable, innovative solutions.
+                Mr.Shelile is a computer engineering professional strong foundations in Computer Systems Engineering and currently completing a B.Eng Tech in Computer Engineering. He brings hands‑on experience in IT support, robotics instruction, and has delivered blockchain MVPs on Solana and Ethereum. Certified in AI, Machine Learning and Python via the Samsung Innovation Campus at Lerotholi Polytechnic, he transforms technical expertise into scalable, innovative solutions.
                 </p>
               </div>
             </div>
@@ -176,7 +176,7 @@ export default function AboutPage() {
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="Shelile..jpg"
+                src="reatile.jpg"
                 width={120}
                 height={120}
                 alt="Mr. Reatile Masaile"
@@ -185,8 +185,10 @@ export default function AboutPage() {
               />
               <div className="space-y-1 text-center">
                 <h3 className="text-xl font-semibold">Mr. Reatile Masaile</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify">
-                Mr.Shelile is a 
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                Skilled software developer with a Diploma in Computer Systems Engineering and solid IT experience. Certified in Artificial Intelligence, 
+                Python programming, and Cybersecurity fundamentals. Currently advancing expertise in ethical hacking and blockchain technologies.
+                Strong foundation in software development, security. 
                 </p>
               </div>
             </div>

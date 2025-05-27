@@ -17,8 +17,12 @@ export default function  HeroSection() {
                 </span>
               </h1>
             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Empowering Basotho with <span className="font-semibold">Merafocoins</span> through blockchain and
+                Empowering Basotho with <span className="font-semibold">Software Solutions</span> through blockchain-driven
                 digital innovation.
+              </p>
+              <p className="mt-3 text-sm text-gray-500 sm:mt-5 sm:text-base sm:max-w-xl sm:mx-auto md:mt-5 md:text-lg lg:mx-0">
+                CodeBurst (CodeB) PTY. LTD is a software publishing company which was established and incorporated in 2020
+                with a dedication to help organizations grow through smart, and future-ready systems. 
               </p>
           </div>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
