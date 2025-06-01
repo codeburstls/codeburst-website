@@ -141,7 +141,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-12">
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="Kaara.jpeg"
+                src="pheta.jpg"
                 width={120}
                 height={120}
                 alt="Mr. Pheta Theoha"
@@ -150,14 +150,16 @@ export default function AboutPage() {
               />
               <div className="space-y-1 text-center">
                 <h3 className="text-xl font-semibold">Mr. Pheta Theoha</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify">
-                Mr Potloane holds 
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                 A software developer with expertise in data engineering, cloud computing, and generative AI. 
+                 His skillset spans mobile development with React Native, progressive web apps, Web3, and technologies such as Docker. 
+                 Having worked on several remote web development projects, he values consistent communication and client-focused delivery. 
                 </p>
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="./V.jpg"
+                src="./blom.jpg"
                 width={120}
                 height={120}
                 alt="Ms. Bongani Blom"
@@ -212,7 +214,7 @@ export default function AboutPage() {
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="Shelile..jpg"
+                src="Hlomo.jpg"
                 width={120}
                 height={120}
                 alt="Mr. Shelile Malefetsane"
@@ -221,8 +223,11 @@ export default function AboutPage() {
               />
               <div className="space-y-1 text-center">
                 <h3 className="text-x1 font-semibold">Mr. Hlomohang Sethunts'a</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify">
-                Mr.Shelile is 
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                A software delivering solutions at the forefront of modern technologies.
+                He specializes in crossm platfor frameworks such as Flet, Flutter, and Flask.
+                He holds a Diploma in Computer Systems Engineering and is certified in Python and Artificial Intelligence. 
+                His practical expertise is supported by over two years of experience in IT support.
                 </p>
               </div>
             </div>
