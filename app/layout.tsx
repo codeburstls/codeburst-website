@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import "./globals.css";
 import NavBar from "../components/nav-bar";
 import { Footer } from "@/components/footer";
+import WhatsAppIcon from "@/components/whatsapp-icon";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <NavBar/>
         {children}
         <Footer/>
+       <WhatsAppIcon />
       </body>
     </html>
   );
