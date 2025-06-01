@@ -98,12 +98,12 @@ export default function NavBar() {
                       {item.name}
                     </Link>
                   ))}
-                  <Button
+                 {/*} <Button
                     className="mt-4 bg-[#3b82f6] hover:bg-blue-700 rounded-full"
                     onClick={handleLinkClick} 
                   >
                     Contact US
-                  </Button>
+                  </Button>*/}
                 </div>
               </SheetContent>
             </Sheet>

@@ -6,7 +6,13 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Code, Coins, Laptop, UsersIcon } from "lucide-react";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Services | CodeBurst Lesotho",
+  description:
+    "Explore the innovative services offered by CodeBurst Lesotho, including software development, blockchain solutions, and digital education. Empowering communities through technology.",
+};
 const services = [
   {
     title: "Software Development",

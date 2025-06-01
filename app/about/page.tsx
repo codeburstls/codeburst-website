@@ -1,7 +1,14 @@
 
 import { Eye, Shield } from "lucide-react";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "About Us | CodeBurst Lesotho",
+  description:
+    "Learn about CodeBurst Lesotho, our mission, vision, executive committee, and internal development team driving digital innovation in Lesotho.",
+};
 export default function AboutPage() {
+  
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

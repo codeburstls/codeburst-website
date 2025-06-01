@@ -7,7 +7,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Image from "next/image";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Solutions | CodeBurst Lesotho",
+  description:
+    "Explore CodeBurst Lesotho's innovative solutions, including software development, blockchain applications, and digital education platforms. Empowering communities through technology.",};
 const solutionCategories = [
   {
     id: "enterprise",

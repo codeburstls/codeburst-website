@@ -6,7 +6,14 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: " Blog | CodeBurst Lesotho",
+  description:
+    "Learn about CodeBurst Lesotho's latest projects, events, and community initiatives. Stay updated with our blog.",
+ 
+};
 const blogPosts = [
   {
     title: "The Future of Blockchain in Africa",

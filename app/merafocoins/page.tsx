@@ -1,4 +1,4 @@
-'use client'
+
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
@@ -8,7 +8,14 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Metadata } from "next";
+import Link from "next/link";
 
+export const metadata: Metadata = {
+  title: "Merafocoins | CodeBurst Lesotho",
+  description:
+    "Learn about CodeBurst Lesotho's Merafocoins, a pioneering Web3.0 technology venture dedicated to bridging the gap between centralized Web2 platforms and the decentralized internet of tomorrow.",
+};
 const features = [
   {
     title: "Knowledge Exchange Events & Hackathons",
@@ -60,14 +67,13 @@ export default function MerafocoinsPage() {
             Our mission is to empower individuals, businesses, and communities in Lesotho—and beyond—with trustless applications that restore data sovereignty, streamline digital interactions, and unlock new economic opportunities. Through strategic partnerships, community-driven governance, and open‑source innovation, Merafocoins is committed to accelerating mainstream adoption of Web3.0 technologies and redefining the future of online collaboration.
             </p>
             <div className="flex flex-wrap gap-4">
+                <Link href="https://www.facebook.com/merafocoins">
                 <Button
                 className="bg-[#3b82f6] hover:bg-blue-700 rounded-full bottom-20 "
-                onClick={() => {
-                  window.location.href = "https://www.facebook.com/merafocoins";
-                }}
-                >
+               >
                 Learn More
                 </Button>
+                </Link>
               {/* <a
                href="https://www.facebook.com/merafocoins"
                 className="border-blue-500 text-blue-600 hover:bg-blue-50 rounded-full"
