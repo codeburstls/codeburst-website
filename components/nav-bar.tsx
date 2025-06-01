@@ -62,11 +62,13 @@ export default function NavBar() {
                 {item.name}
               </Link>
             ))}
-            <Link href="/contact">
+            
+           {/*<Link href="/contact">
               <Button className="bg-[#3b82f6] hover:bg-blue-700 rounded-full">
                 Contact US
               </Button>
-            </Link>
+            </Link>*/
+            }
           </div>
 
           {/* Mobile menu sheet */}
