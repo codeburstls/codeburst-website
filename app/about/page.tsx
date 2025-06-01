@@ -58,7 +58,7 @@ export default function AboutPage() {
               Our Team
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Executive Committee - Innovators Behind CodeB
+              Executive Committee - Innovators Behind CodeBurst
             </p>
           </div>
 
@@ -206,7 +206,7 @@ export default function AboutPage() {
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
                 A dedicated and versatile software developer with over two years of experience in web and mobile app development. 
                 He creates solutions that streamline business processes, and support digital transformation. 
-                He has a backgroundin Computer Systems Engineering, and is currently exploring Python and data analysis to broaden his skillset.
+                He holds a diploma in Computer Systems Engineering, and is currently exploring Python and data analysis to broaden his skillset.
                 </p>
               </div>
             </div>
