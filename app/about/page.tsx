@@ -1,7 +1,14 @@
 
 import { Eye, Shield } from "lucide-react";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "About Us | CodeBurst Lesotho",
+  description:
+    "Learn about CodeBurst Lesotho, our mission, vision, executive committee, and internal development team driving digital innovation in Lesotho.",
+};
 export default function AboutPage() {
+  
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -225,7 +232,7 @@ export default function AboutPage() {
                 <h3 className="text-x1 font-semibold">Mr. Hlomohang Sethunts'a</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
                 A software delivering solutions at the forefront of modern technologies.
-                He specializes in crossm platfor frameworks such as Flet, Flutter, and Flask.
+                He specializes in cross platform frameworks such as Flet, Flutter, and Flask.
                 He holds a Diploma in Computer Systems Engineering and is certified in Python and Artificial Intelligence. 
                 His expertise is supported by over two years of experience in IT support.
                 </p>
