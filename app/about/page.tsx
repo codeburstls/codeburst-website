@@ -88,7 +88,7 @@ export default function AboutPage() {
                 Mr Potloane holds a Diploma in Computer Systems Engineering and is currently pursuing a B.Eng in Computer Engineering. Mr. Potloane has years of experience in full-stack web and mobile application development, with expertise spanning technologies such as React, Python, and SQL.
 
                 Career highlights include leading blockchain (Web3) development projects on Ethereum and Solana.
-                He uses his technical versatility to drive CodeB’s mission of delivering innovative digital solutions.
+                He uses his technical versatility to drive CodeB’s mission of innovative digital solutions.
                 </p>
               </div>
             </div>
@@ -159,7 +159,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold">Mr. Pheta Theoha</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
                  A software developer with expertise in data engineering, cloud computing, and generative AI. 
-                 His skillset spans mobile development with React Native, progressive web apps, Web3, and technologies such as Docker. 
+                 His skillset spans mobile development with React Native, progressive Web3 apps, and technologies such as Docker. 
                  Having worked on several remote web development projects, he values consistent communication and client-focused delivery. 
                 </p>
               </div>
@@ -234,7 +234,7 @@ export default function AboutPage() {
                 A software delivering solutions at the forefront of modern technologies.
                 He specializes in cross platform frameworks such as Flet, Flutter, and Flask.
                 He holds a Diploma in Computer Systems Engineering and is certified in Python and Artificial Intelligence. 
-                His practical expertise is supported by over two years of experience in IT support.
+                His expertise is supported by over two years of experience in IT support.
                 </p>
               </div>
             </div>
