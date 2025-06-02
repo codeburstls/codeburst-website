@@ -230,7 +230,7 @@ export default function AboutPage() {
                 style={{ aspectRatio: "120/120", objectFit: "cover" }}
               />
               <div className="space-y-1 text-center">
-                <h3 className="text-x1 font-semibold">Mr. Hlomohang Sethunts'a</h3>
+                <h3 className="text-x1 font-semibold">Mr. Hlomohang Sethunts&apos;a</h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
                 A software delivering solutions at the forefront of modern technologies.
                 He specializes in cross platform frameworks such as Flet, Flutter, and Flask.

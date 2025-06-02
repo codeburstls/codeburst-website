@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 
 export default function  HeroSection() {
@@ -29,7 +30,7 @@ export default function  HeroSection() {
                 <Button className="rounded-full bg-[#3b82f6] hover:bg-blue-700 px-8 py-6 text-lg">Learn More</Button>
               </div>
         </div>
-        <img 
+        <Image 
           src="./image(4).png"
  
           alt="Hero"
