@@ -1,6 +1,7 @@
 
 import { Eye, Shield } from "lucide-react";
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Us | CodeBurst Lesotho",
@@ -71,8 +72,8 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-12">
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="Kaara.jpeg"
+              <Image
+                src={"/Kaara.jpeg"}
                 width={120}
                 height={120}
                 alt="Mr. Tlokotsi Potloane"
@@ -94,8 +95,8 @@ export default function AboutPage() {
             </div>
             
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="./V.jpg"
+              <Image
+                src="/V.jpg"
                 width={120}
                 height={120}
                 alt="Ms. Vikile Hata-hata"
@@ -116,8 +117,8 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="Shelile..jpg"
+              <Image
+                src="/Shelile..jpg"
                 width={120}
                 height={120}
                 alt="Mr. Shelile Malefetsane"
@@ -147,8 +148,8 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-12">
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="pheta.jpg"
+              <Image
+                src="/pheta.jpg"
                 width={120}
                 height={120}
                 alt="Mr. Pheta Theoha"
@@ -165,8 +166,8 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="./blom.jpg"
+              <Image
+                src="/blom.jpg"
                 width={120}
                 height={120}
                 alt="Ms. Bongani Blom"
@@ -184,8 +185,8 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="reatile.jpg"
+              <Image
+                src="/reatile.jpg"
                 width={120}
                 height={120}
                 alt="Mr. Reatile Masaile"
@@ -202,8 +203,8 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="mswati.jpg"
+              <Image
+                src="/mswati.jpg"
                 width={120}
                 height={120}
                 alt="Mr. Mswati Tshabalala"
@@ -220,8 +221,8 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="Hlomo.jpg"
+              <Image
+                src="/Hlomo.jpg"
                 width={120}
                 height={120}
                 alt="Mr. Shelile Malefetsane"
