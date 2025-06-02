@@ -1,10 +1,7 @@
 
 import HeroSection from "@/components/hero-section";
-import  NavBar  from "../components/nav-bar";
 import { ServicesSection } from "@/components/services-offered";
 import { MerafocoinsSection } from "@/components/merafocoins-section";
-import { CTASection } from "@/components/cta-section";
-import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
