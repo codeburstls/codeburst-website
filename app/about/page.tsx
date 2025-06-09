@@ -1,7 +1,15 @@
-import { Button } from "@/components/ui/button";
-import { Eye, Shield } from "lucide-react";
 
+import { Eye, Shield } from "lucide-react";
+import { Metadata } from "next";
+import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "About Us | CodeBurst Lesotho",
+  description:
+    "Learn about CodeBurst Lesotho, our mission, vision, executive committee, and internal development team driving digital innovation in Lesotho.",
+};
 export default function AboutPage() {
+  
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -13,7 +21,7 @@ export default function AboutPage() {
             Driving Digital Innovation in Lesotho
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            CodeB is at the forefront of technological advancement, bringing
+            CodeBurst is at the forefront of technological advancement, bringing
             cutting-edge solutions to Lesotho and beyond.
           </p>
         </div>
@@ -58,14 +66,14 @@ export default function AboutPage() {
               Our Team
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Meet the Innovators Behind CodeBurst
+              Executive Committee - Innovators Behind CodeBurst
             </p>
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mt-12">
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="Kaara.jpeg"
+              <Image
+                src={"/Kaara.jpeg"}
                 width={120}
                 height={120}
                 alt="Mr. Tlokotsi Potloane"
@@ -77,17 +85,20 @@ export default function AboutPage() {
                 <p className="text-gray-500 dark:text-gray-400">
                 Director of Executive Management
                 </p>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                Mr Potloane holds a Diploma in Computer Systems Engineering and is currently pursuing a B.Eng in Computer Engineering. He brings years of experience in full-stack web and mobile application development, with expertise spanning technologies such as React, Python, and SQL.
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify">
+                Mr Potloane holds a Diploma in Computer Systems Engineering and is currently pursuing a B.Eng in Computer Engineering. Mr. Potloane has years of experience in full-stack web and mobile application development, with expertise spanning technologies such as React, Python, and SQL.
 
                 Career highlights include leading blockchain (Web3) development projects on Ethereum and Solana.
-                He uses his technical versatility to drive CodeB’s mission of delivering innovative digital solutions.
+                He uses his technical versatility to drive CodeB’s mission of innovative digital solutions.
                 </p>
               </div>
             </div>
+            
             <div className="flex flex-col items-center space-y-4">
+
               <img
                 src="V.jpg"
+
                 width={120}
                 height={120}
                 alt="Ms. Vikile Hata-hata"
@@ -99,16 +110,17 @@ export default function AboutPage() {
                 <p className="text-gray-500 dark:text-gray-400">
                 Director of Information Technology
                 </p>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                Ms. Hata-hata brings over three years of experience in IT infrastructure, network, and system administration. She holds a Diploma in Computer Systems Engineering and  currently serving as an IT Technician.
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                Ms. Hata-hata brings over three years of experience in IT infrastructure, networks, and system administration. She holds a Diploma in Computer Systems Engineering and  currently serving as an IT Technician.
 
-                Expanding her expertise in cybersecurity and Python to support systems automation, with certifications in Fortinet and CompTIA Security, she combines technical proficiency with a proactive approach to evolving enterprise technologies.
+                Vikile is expanding her expertise with certifications in cybersecurity professional with focus on network security and DevSecOps, as well as Python for systems automation. Passionate about emerging technologies, particularly AI and blockchain,
+                and commitment to continuous learning and adaptability.
                 </p>
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
-              <img
-                src="Shelile..jpg"
+              <Image
+                src="/Shelile..jpg"
                 width={120}
                 height={120}
                 alt="Mr. Shelile Malefetsane"
@@ -120,8 +132,112 @@ export default function AboutPage() {
                 <p className="text-gray-500 dark:text-gray-400">
                 Director of Technology & Engineering
                 </p>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                Mr.Shelile is a computer engineering professional with a Diploma in Computer Systems Engineering and currently completing a B.Eng Tech in Computer Engineering. He brings hands‑on experience in IT support, robotics instruction, and has delivered blockchain MVPs on Solana and Ethereum. Certified in AI, Machine Learning and Python via the Samsung Innovation Campus at Lerotholi Polytechnic, he transforms technical expertise into scalable, innovative solutions.
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify">
+                Mr.Shelile is a computer engineering professional strong foundations in Computer Systems Engineering and currently completing a B.Eng Tech in Computer Engineering. He brings hands‑on experience in IT support, robotics instruction, and has delivered blockchain MVPs on Solana and Ethereum. Certified in AI, Machine Learning and Python via the Samsung Innovation Campus at Lerotholi Polytechnic, he transforms technical expertise into scalable, innovative solutions.
+                </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div className="mt-10">
+          <div className="lg:text-center">
+            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+              Internal Development Team 
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-12">
+            <div className="flex flex-col items-center space-y-4">
+              <img
+                src="pheta.jpg"
+                width={120}
+                height={120}
+                alt="Mr. Pheta Theoha"
+                className="rounded-full"
+                style={{ aspectRatio: "120/120", objectFit: "cover" }}
+              />
+              <div className="space-y-1 text-center">
+                <h3 className="text-xl font-semibold">Mr. Pheta Theoha</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                 A software developer with expertise in data engineering, cloud computing, and generative AI. 
+                 His skillset spans mobile development with React Native, progressive Web3 apps, and technologies such as Docker. 
+                 Having worked on several remote web development projects, he values consistent communication and client-focused delivery. 
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col items-center space-y-4">
+              <img
+                src="blom.jpg"
+                width={120}
+                height={120}
+                alt="Ms. Bongani Blom"
+                className="rounded-full"
+                style={{ aspectRatio: "120/120", objectFit: "cover" }}
+              />
+              <div className="space-y-1 text-center">
+                <h3 className="text-xl font-semibold">Mr. Bongani Blom</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                A full-stack developer with strong experience in mobile and web development.
+                His skillset includes Flutter, React Native, Vue.js, and backend technologies like Python (Django, Flask, FastAPI), PHP, and Node.js. 
+                He also has a background in graphic design and hardware support, with hands-on experience in microcontroller-based projects.
+
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col items-center space-y-4">
+              <Image
+                src="/reatile.jpg"
+                width={120}
+                height={120}
+                alt="Mr. Reatile Masaile"
+                className="rounded-full"
+                style={{ aspectRatio: "120/120", objectFit: "cover" }}
+              />
+              <div className="space-y-1 text-center">
+                <h3 className="text-xl font-semibold">Mr. Reatile Masaile</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                Skilled software developer with a Diploma in Computer Systems Engineering and solid IT experience. Certified in Artificial Intelligence, 
+                Python programming, and Cybersecurity fundamentals. Currently advancing expertise in ethical hacking and blockchain technologies.
+                Strong foundation in software development, security. 
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col items-center space-y-4">
+              <Image
+                src="/mswati.jpg"
+                width={120}
+                height={120}
+                alt="Mr. Mswati Tshabalala"
+                className="rounded-full"
+                style={{ aspectRatio: "120/120", objectFit: "cover" }}
+              />
+              <div className="space-y-1 text-center">
+                <h3 className="text-xl font-semibold">Mr. Mswati Tshabalala</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                A dedicated and versatile software developer with over two years of experience in web and mobile app development. 
+                He creates solutions that streamline business processes, and support digital transformation. 
+                He holds a diploma in Computer Systems Engineering, and is currently exploring Python and data analysis to broaden his skillset.
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col items-center space-y-4">
+              <Image
+                src="/Hlomo.jpg"
+                width={120}
+                height={120}
+                alt="Mr. Shelile Malefetsane"
+                className="rounded-full"
+                style={{ aspectRatio: "120/120", objectFit: "cover" }}
+              />
+              <div className="space-y-1 text-center">
+                <h3 className="text-x1 font-semibold">Mr. Hlomohang Sethunts&apos;a</h3>
+                <p className="text-sm text-gray-500 dark:text-gray-400 text-justify hyphens-auto">
+                A software delivering solutions at the forefront of modern technologies.
+                He specializes in cross platform frameworks such as Flet, Flutter, and Flask.
+                He holds a Diploma in Computer Systems Engineering and is certified in Python and Artificial Intelligence. 
+                His expertise is supported by over two years of experience in IT support.
                 </p>
               </div>
             </div>

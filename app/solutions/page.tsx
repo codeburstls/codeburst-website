@@ -8,6 +8,12 @@ import {
 } from "@/components/ui/card";
 
 
+
+
+export const metadata: Metadata = {
+  title: "Solutions | CodeBurst Lesotho",
+  description:
+    "Explore CodeBurst Lesotho's innovative solutions, including software development, blockchain applications, and digital education platforms. Empowering communities through technology.",};
 const solutionCategories = [
   {
     id: "enterprise",
@@ -85,18 +91,6 @@ const solutionCategories = [
         description: "Tech Stack: Java, MySQL",
         content:
           "A centralized platform to streamline project development—from design to deployment—by aggregating all artifacts, processes, and workflows. Born from our team’s firsthand challenges, it eliminates fragmentation and boosts efficiency.",
-      },
-      {
-        title: "Industrial IoT",
-        description: "Connected manufacturing",
-        content:
-          "Connect industrial equipment and systems to monitor performance, predict maintenance needs, and optimize production processes.",
-      },
-      {
-        title: "Healthcare IoT",
-        description: "Connected medical devices",
-        content:
-          "IoT solutions for healthcare that enable remote patient monitoring, improve treatment outcomes, and enhance operational efficiency in medical facilities.",
       },
     ],
   },

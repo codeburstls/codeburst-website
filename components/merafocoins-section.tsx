@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import Link from "next/link"
 
 export function MerafocoinsSection() {
@@ -26,8 +27,10 @@ export function MerafocoinsSection() {
             </div>
           </div>
           <div className="mt-8 lg:mt-0 lg:ml-[200px]">
+
             <img
               src="image(7).png"
+
               alt="Merafocoins Initiative"
               
               className="rounded-lg "
