@@ -1,6 +1,5 @@
-import Image from "next/image"
+
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
 
 export default function  HeroSection() {
   return (
@@ -25,8 +24,8 @@ export default function  HeroSection() {
                 <Button className="rounded-full bg-[#3b82f6] hover:bg-blue-700 px-8 py-6 text-lg">Learn More</Button>
               </div>
         </div>
-        <img 
-          src="./merafo.png"
+        <img
+          src="image(4).png"
  
           alt="Hero"
           className="rounded-lg w-600 h-400"

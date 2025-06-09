@@ -2,13 +2,15 @@
   "name": "codeburst-website",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack -p 3001",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
+
+"homepage":"https://codeburst.co.ls/",
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "NODE_ENV=production node server.js"
+},
+"dependencies": {
+
     "@radix-ui/react-dialog": "^1.1.6",
     "@radix-ui/react-label": "^2.1.2",
     "@radix-ui/react-slot": "^1.1.1",
