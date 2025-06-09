@@ -87,7 +87,7 @@ export default function AboutPage() {
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
-                src="./V.jpg"
+                src="V.jpg"
                 width={120}
                 height={120}
                 alt="Ms. Vikile Hata-hata"

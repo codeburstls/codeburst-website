@@ -32,8 +32,8 @@ export default function NavBar() {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <Image
-                src={"/cb-logo.jpg"}
+              <img
+                src="cb-logo.jpg"
                 width={35}
                 height={35}
                 alt={"Code Burst Logo"}

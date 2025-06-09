@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import Image from "next/image";
+
 
 const solutionCategories = [
   {
@@ -174,10 +174,10 @@ export default function SolutionsPage() {
               </p>
             </div>
             <div className="relative h-80 w-full rounded-lg overflow-hidden ">
-              <Image
-                src="/image(4).png"
+              <img
+                src="image(4).png"
                 alt="Our Approach Visualization"
-                fill
+            
                 className="object-cover"
               />
             </div>

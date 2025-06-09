@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-8 xl:col-span-1">
             <img
               className="h-10"
-              src="/cb-logo.jpg"
+              src="cb-logo.jpg"
               alt="CodeBurst Logo"
             />
             <p className="text-gray-900 text-base">Driving digital solutions and innovation in Lesotho and beyond.</p>
