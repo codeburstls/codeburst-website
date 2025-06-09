@@ -1,5 +1,6 @@
 
-import Image from "next/image";
+'use client'
+
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -83,10 +84,10 @@ export default function MerafocoinsPage() {
             </div>
           </div>
           <div className="relative h-80 w-full rounded-lg overflow-hidden ">
-            <Image
-              src="/index.jpg"
+            <img
+              src="index.jpg"
               alt="Merafocoins Visualization"
-              fill
+              
               className="object-cover"
             />
           </div>

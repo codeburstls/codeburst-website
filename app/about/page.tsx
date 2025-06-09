@@ -95,8 +95,10 @@ export default function AboutPage() {
             </div>
             
             <div className="flex flex-col items-center space-y-4">
-              <Image
-                src="/V.jpg"
+
+              <img
+                src="V.jpg"
+
                 width={120}
                 height={120}
                 alt="Ms. Vikile Hata-hata"
@@ -148,8 +150,8 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-12">
             <div className="flex flex-col items-center space-y-4">
-              <Image
-                src="/pheta.jpg"
+              <img
+                src="pheta.jpg"
                 width={120}
                 height={120}
                 alt="Mr. Pheta Theoha"
@@ -166,8 +168,8 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="flex flex-col items-center space-y-4">
-              <Image
-                src="/blom.jpg"
+              <img
+                src="blom.jpg"
                 width={120}
                 height={120}
                 alt="Ms. Bongani Blom"
