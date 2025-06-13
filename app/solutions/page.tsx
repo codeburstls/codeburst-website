@@ -43,7 +43,7 @@ const solutionCategories = [
     title: "Blockchain Solutions",
     solutions: [
       {
-        title: "Bokamoso Edu",
+        title: "Blockchain Education System",
         description: "Tech Stack: Next.js, Django, Solana (Anchor Framework).",
         content:
           "This platform digitally issues and manages student scholarships using blockchain technology for secure verification via Solana's immutable ledger. Developed for clients leveraging our blockchain expertise.",

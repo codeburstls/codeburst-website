@@ -27,7 +27,7 @@ export function MerafocoinsSection() {
             </div>
           </div>
           <div className="mt-8 lg:mt-0 lg:ml-[200px]">
-            <Image
+           <Image
               src="./image(7).png"
               alt="Merafocoins Initiative"
               
