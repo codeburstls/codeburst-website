@@ -8,6 +8,10 @@ import WhatsAppIcon from "@/components/whatsapp-icon";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/cb-logo.jpg'
+    //icon: '/logo-bg.png'
+  },
   title: "CodeBurst Lesotho",
   description:
     "Empowering digital innovation in Lesotho. Explore our projects, events, and community initiatives at CodeBurst Lesotho.",
