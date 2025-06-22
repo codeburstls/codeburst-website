@@ -186,9 +186,10 @@ export default function SolutionsPage() {
             challenges, seize opportunities, and achieve your business
             objectives in the digital age.
           </p>
-          <button className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full">
+          <a href="/contact"><button className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full">
             Get in Touch
           </button>
+          </a>
         </div>
       </div>
     </div>

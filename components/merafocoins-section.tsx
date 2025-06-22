@@ -30,7 +30,8 @@ export function MerafocoinsSection() {
            <Image
               src="./image(7).png"
               alt="Merafocoins Initiative"
-              
+              width={200}
+              height={200}
               className="rounded-lg "
             />
           </div>

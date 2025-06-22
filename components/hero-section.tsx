@@ -32,7 +32,8 @@ export default function  HeroSection() {
         </div>
          <Image 
           src="./image(4).png"
- 
+          width={600}
+          height={400}
           alt="Hero"
           className="rounded-lg w-600 h-400"
         />

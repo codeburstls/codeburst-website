@@ -10,6 +10,8 @@ export function Footer() {
           <div className="space-y-8 xl:col-span-1">
               <Image
               className="h-10"
+              width={42}
+              height={30}
               src="/cb-logo.jpg"
               alt="CodeBurst Logo"
             />

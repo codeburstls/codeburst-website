@@ -1,17 +1,24 @@
+
+
 "use client";
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import {
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -23,40 +30,41 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+  
+  const message = `Hello! I would like to get in touch.\nName: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`;
+  const whatsappUrl = `https://wa.me/26653626661?text=${encodeURIComponent(message)}`;
 
-    {
-      /*try {
-      const response = await fetch("/api/contact", {
+  // Open WhatsApp chat with pre-filled message
+  window.open(whatsappUrl, '_blank');
+
+  
+
+   /*  try {
+     const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
-      })
-
+      });
       if (response.ok) {
-        toast({
-          title: "Message Sent",
-          description: "We've received your message and will get back to you soon.",
-        })
-        setFormData({ name: "", email: "", message: "" })
+        setIsDialogOpen(true);
+        setFormData({ name: "", email: "", message: "" });
       } else {
-        throw new Error("Failed to send message")
+        throw new Error("Failed to send message");
       }
     } catch (error) {
-      toast({
-        title: "Error",
-        description: "Failed to send message. Please try again later.",
-        variant: "destructive",
-      })
+      // Handle error here (e.g., toast)
     } finally {
-      setIsSubmitting(false)
-    }
-  }*/
-    }
+      setIsSubmitting(false);
+    }*/
+   setIsDialogOpen(true);
+   setIsSubmitting(false);
+    setFormData({ name: "", email: "", message: "" });
   };
+
   return (
-    <div className="py-16 bg-white">
+   <div className="py-16 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
@@ -136,6 +144,23 @@ export default function ContactPage() {
           </form>
         </div>
       </div>
+    
+      {/* Dialog after submit */}
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>Message Sent</DialogTitle>
+            <DialogDescription>
+              We've received your message and will get back to you soon.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="mt-4 flex justify-end">
+            <button onClick={() => setIsDialogOpen(false)} >
+              Close
+            </button>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
