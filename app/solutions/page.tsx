@@ -1,5 +1,5 @@
 "use client";
-import * as React from "react"
+import React from "react"
 // Import your existing UI components
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
@@ -23,7 +23,7 @@ import { Label } from "@/components/ui/label"
 import { useMediaQuery } from "@/hooks/use-media-query"
 //import { Metadata } from "next";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@radix-ui/react-tabs";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
 /*export const metadata: Metadata = {
   title: "Solutions | CodeBurst Lesotho",
@@ -279,21 +279,19 @@ const SolutionsPage = () => {
 
 
       {/* Replace the button with a click handler that opens the drawer */}
-      <div className="text-center">
-        {/* Existing heading and paragraph */}
-        {/* ... */}
-        {/* Updated button */}
-        <Button
-          className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full"
-          onClick={() => setIsDrawerOpen(true)}
-        >
-          Get in Touch
-        </Button>
-      </div>
+       <div className="text-center">
+      <Button
+        className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full"
+        onClick={() => setIsDrawerOpen(true)}
+      >
+        Get in Touch
+      </Button>
+    </div>
 
-      {/* Drawer / Dialog for contact form */}
-      {isDesktop ? (
-        // Desktop: use Dialog
+    {/* Use React Fragment or div wrapper around Dialogs */}
+    <>
+      {/* Desktop Dialog */}
+      {isDesktop && (
         <Dialog open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
           <DialogContent className="sm:max-w-md">
             <DialogHeader>
@@ -305,11 +303,14 @@ const SolutionsPage = () => {
             <ContactForm />
           </DialogContent>
         </Dialog>
-      ) : (
-        // Mobile: use Drawer
+      )}
+
+      {/* Mobile Drawer */}
+      {!isDesktop && (
         <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
           <DrawerTrigger asChild>
-            <Button className="hidden">Open</Button> {/* Hidden trigger */}
+            {/* Hidden trigger */}
+            <div></div>
           </DrawerTrigger>
           <DrawerContent>
             <DrawerHeader>
@@ -331,19 +332,19 @@ const SolutionsPage = () => {
         </Drawer>
       )}
 
-      {/* Success Dialog */}
+      {/* Success message dialog */}
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle>Message Sent</DialogTitle>
             <DialogDescription>
-              We've received your message and will get back to you soon.
+              We have received your message and will get back to you soon.
             </DialogDescription>
           </DialogHeader>
-         
         </DialogContent>
       </Dialog>
-    </div>
+    </>
+  </div>
   );
 };
 
