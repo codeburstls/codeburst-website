@@ -1,6 +1,6 @@
 
-'use client'
 
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -84,10 +84,10 @@ export default function MerafocoinsPage() {
             </div>
           </div>
           <div className="relative h-80 w-full rounded-lg overflow-hidden ">
-            <img
-              src="index.jpg"
+            <Image
+              src="/index.jpg"
               alt="Merafocoins Visualization"
-              
+              fill
               className="object-cover"
             />
           </div>
@@ -116,7 +116,7 @@ export default function MerafocoinsPage() {
 
         <div className="bg-gray-50 rounded-lg p-8 mb-16 shadow-md">
           <h2 className="text-3xl font-bold mb-6 text-center text-blue-600">
-            How It Works
+            Our Vision
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
@@ -124,11 +124,12 @@ export default function MerafocoinsPage() {
                 <span className="text-2xl font-bold">1</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                Create Wallet
+              Secure Digital Identity & Records
               </h3>
               <p className="text-gray-600">
-                Set up your secure digital wallet to store and manage your
-                Merafocoins.
+                Use blockchain to protect and verify data across sectors like education,
+                finance, and public services.
+
               </p>
             </div>
             <div>
@@ -136,11 +137,11 @@ export default function MerafocoinsPage() {
                 <span className="text-2xl font-bold">2</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                Acquire Tokens
+                Automate with Smart Contracts
               </h3>
               <p className="text-gray-600">
-                Purchase or earn Merafocoins through our platform or authorized
-                exchanges.
+                Introduce decentralization to simplify complex processes through transparent, 
+                rule-based automation.
               </p>
             </div>
             <div>
@@ -148,11 +149,10 @@ export default function MerafocoinsPage() {
                 <span className="text-2xl font-bold">3</span>
               </div>
               <h3 className="text-xl font-semibold mb-2 text-gray-900">
-                Transact & Grow
+                Launch a Future Token Ecosystem
               </h3>
               <p className="text-gray-600">
-                Use Merafocoins for transactions, investments, or participate in
-                governance.
+                Use Merafocoins for transactions, investments, and governance. — To be developed in later stages.
               </p>
             </div>
           </div>

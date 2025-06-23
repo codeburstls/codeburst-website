@@ -8,9 +8,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
-            <Image
+              <Image
               className="h-10"
-              src="cb-logo.jpg"
+              width={42}
+              height={30}
+              src="/cb-logo.jpg"
               alt="CodeBurst Logo"
             />
             <p className="text-gray-900 text-base">Driving digital solutions and innovation in Lesotho and beyond.</p>
@@ -118,4 +120,3 @@ export function Footer() {
     </footer>
   )
 }
-
