@@ -39,7 +39,7 @@ export default function NavBar() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <img
+              <Image
                 src="cb-logo.jpg"
                 width={35}
                 height={35}

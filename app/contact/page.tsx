@@ -8,7 +8,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import {
   Dialog,
-  DialogClose,
   DialogContent,
   DialogHeader,
   DialogTitle,
@@ -151,7 +150,7 @@ export default function ContactPage() {
           <DialogHeader>
             <DialogTitle>Message Sent</DialogTitle>
             <DialogDescription>
-              We've received your message and will get back to you soon.
+              We have received your message and will get back to you soon.
             </DialogDescription>
           </DialogHeader>
           <div className="mt-4 flex justify-end">
