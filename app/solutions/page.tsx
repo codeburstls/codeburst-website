@@ -1,19 +1,33 @@
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+"use client";
+import * as React from "react"
+// Import your existing UI components
+import { Button } from "@/components/ui/button"
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog"
+import {
+  Drawer,
+  DrawerContent,
+  DrawerDescription,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import { useMediaQuery } from "@/hooks/use-media-query"
+//import { Metadata } from "next";
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@radix-ui/react-tabs";
 
-
-
-
-export const metadata: Metadata = {
+/*export const metadata: Metadata = {
   title: "Solutions | CodeBurst Lesotho",
   description:
-    "Explore CodeBurst Lesotho's innovative solutions, including software development, blockchain applications, and digital education platforms. Empowering communities through technology.",};
+    "Explore CodeBurst Lesotho's innovative solutions, including software development, blockchain applications, and digital education platforms. Empowering communities through technology.",};*/
 const solutionCategories = [
   {
     id: "enterprise",
@@ -55,7 +69,7 @@ const solutionCategories = [
         content:
           "This system will be more convenient in managing educational content that is : academic records, certifications, and projects. Using a Decentralised Autonomous Organisation (DAO) workflow framework to encourage mprove academic excellence. ",
       },
-      
+
     ],
   },
   {
@@ -68,18 +82,18 @@ const solutionCategories = [
         content:
           "This platform leverages machine learning to instantly identify perpetrators and alert nearby police stations, enabling rapid crime response. By analyzing real-time data, it helps law enforcement act decisively to prevent escalation.",
       },
-     /* {
-        title: "Natural Language Processing",
-        description: "Human-computer interaction",
-        content:
-          "Implement NLP solutions that enable computers to understand, interpret, and generate human language for chatbots, sentiment analysis, and more.",
-      },
-      {
-        title: "Computer Vision",
-        description: "Automated visual understanding",
-        content:
-          "Develop systems that can interpret and act on visual information, from facial recognition to quality control in manufacturing.",
-      },*/
+      /* {
+         title: "Natural Language Processing",
+         description: "Human-computer interaction",
+         content:
+           "Implement NLP solutions that enable computers to understand, interpret, and generate human language for chatbots, sentiment analysis, and more.",
+       },
+       {
+         title: "Computer Vision",
+         description: "Automated visual understanding",
+         content:
+           "Develop systems that can interpret and act on visual information, from facial recognition to quality control in manufacturing.",
+       },*/
     ],
   },
   {
@@ -95,8 +109,78 @@ const solutionCategories = [
     ],
   },
 ];
+// State for drawer and dialog
+const SolutionsPage = () => {
+  const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
+  const [isDialogOpen, setIsDialogOpen] = React.useState(false);
+  const [formData, setFormData] = React.useState({
+    name: "",
+    email: "",
+    message: "",
+  });
 
-export default function SolutionsPage() {
+  const isDesktop = useMediaQuery("(min-width: 768px)");
+
+  // Handle form change
+  const handleChange = (e: { target: { name: string; value: string } }) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  // Handle form submit
+  const handleSubmit = (e: { preventDefault: () => void }) => {
+    e.preventDefault();
+    // You can add form validation or API call here
+    setIsDrawerOpen(false);
+    const message = `Hello! I would like to get in touch.\nName: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`;
+    const whatsappUrl = `https://wa.me/26653626661?text=${encodeURIComponent(message)}`;
+
+    // Open WhatsApp chat with pre-filled message
+    window.open(whatsappUrl, '_blank');
+    // close drawer
+    setIsDialogOpen(true);   // open success dialog
+  };
+
+  // Drawer component (for mobile) or Dialog (for desktop)
+  const ContactForm = () => (
+    <form className="grid items-start gap-6" onSubmit={handleSubmit}>
+      <div className="grid gap-3">
+        <Label htmlFor="name">Name</Label>
+        <Input
+          type="text"
+          id="name"
+          name="name"
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+      </div>
+      <div className="grid gap-3">
+        <Label htmlFor="email">Email</Label>
+        <Input
+          type="email"
+          id="email"
+          name="email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+      </div>
+      <div className="grid gap-3">
+        <Label htmlFor="message">Message</Label>
+        <Input
+
+          id="message"
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          required
+        />
+      </div>
+      <Button type="submit" className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full">Send Message</Button>
+    </form>
+  );
+
   return (
     <div className="bg-white py-16">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -171,7 +255,7 @@ export default function SolutionsPage() {
               <img
                 src="image(4).png"
                 alt="Our Approach Visualization"
-            
+
                 className="object-cover"
               />
             </div>
@@ -187,12 +271,78 @@ export default function SolutionsPage() {
             challenges, seize opportunities, and achieve your business
             objectives in the digital age.
           </p>
-          <a href="/contact"><button className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full">
-            Get in Touch
-          </button>
-          </a>
         </div>
+
       </div>
+
+
+      {/* Replace the button with a click handler that opens the drawer */}
+      <div className="text-center">
+        {/* Existing heading and paragraph */}
+        {/* ... */}
+        {/* Updated button */}
+        <Button
+          className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full"
+          onClick={() => setIsDrawerOpen(true)}
+        >
+          Get in Touch
+        </Button>
+      </div>
+
+      {/* Drawer / Dialog for contact form */}
+      {isDesktop ? (
+        // Desktop: use Dialog
+        <Dialog open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
+          <DialogContent className="sm:max-w-md">
+            <DialogHeader>
+              <DialogTitle>Contact Us</DialogTitle>
+              <DialogDescription>
+                Please fill out the form below to get in touch.
+              </DialogDescription>
+            </DialogHeader>
+            <ContactForm />
+          </DialogContent>
+        </Dialog>
+      ) : (
+        // Mobile: use Drawer
+        <Drawer open={isDrawerOpen} onOpenChange={setIsDrawerOpen}>
+          <DrawerTrigger asChild>
+            <Button className="hidden">Open</Button> {/* Hidden trigger */}
+          </DrawerTrigger>
+          <DrawerContent>
+            <DrawerHeader>
+              <DrawerTitle>Contact Us</DrawerTitle>
+              <DrawerDescription>
+                Please fill out the form below to get in touch.
+              </DrawerDescription>
+            </DrawerHeader>
+            <ContactForm />
+            <div className="pt-4 flex justify-end">
+              <Button
+                variant="outline"
+                onClick={() => setIsDrawerOpen(false)}
+              >
+                Cancel
+              </Button>
+            </div>
+          </DrawerContent>
+        </Drawer>
+      )}
+
+      {/* Success Dialog */}
+      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>Message Sent</DialogTitle>
+            <DialogDescription>
+              We've received your message and will get back to you soon.
+            </DialogDescription>
+          </DialogHeader>
+         
+        </DialogContent>
+      </Dialog>
     </div>
   );
-}
+};
+
+export default SolutionsPage;
