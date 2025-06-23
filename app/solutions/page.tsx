@@ -2,6 +2,7 @@
 import * as React from "react"
 // Import your existing UI components
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 import {
   Dialog,
   DialogContent,
@@ -252,10 +253,11 @@ const SolutionsPage = () => {
               </p>
             </div>
             <div className="relative h-80 w-full rounded-lg overflow-hidden ">
-              <img
+              <Image
+                width={500}
+                height={500}
                 src="image(4).png"
                 alt="Our Approach Visualization"
-
                 className="object-cover"
               />
             </div>
