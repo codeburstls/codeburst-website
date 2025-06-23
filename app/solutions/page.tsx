@@ -44,7 +44,7 @@ const solutionCategories = [
     title: "Blockchain Solutions",
     solutions: [
       {
-        title: "Bokamoso Edu",
+        title: "Blockchain Education System",
         description: "Tech Stack: Next.js, Django, Solana (Anchor Framework).",
         content:
           "This platform digitally issues and manages student scholarships using blockchain technology for secure verification via Solana's immutable ledger. Developed for clients leveraging our blockchain expertise.",
@@ -187,9 +187,10 @@ export default function SolutionsPage() {
             challenges, seize opportunities, and achieve your business
             objectives in the digital age.
           </p>
-          <button className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full">
+          <a href="/contact"><button className="bg-[#3b82f6] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full">
             Get in Touch
           </button>
+          </a>
         </div>
       </div>
     </div>

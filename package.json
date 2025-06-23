@@ -3,17 +3,14 @@
   "version": "0.1.0",
   "private": true,
 
-
-"homepage":"https://codeburst.co.ls/",
-"scripts": {
-  "dev": "next dev",
-
-  "build": "next build",
-  "start": "NODE_ENV=production node server.js"
-},
-"dependencies": {
-
-    "@radix-ui/react-dialog": "^1.1.6",
+  "homepage": "https://codeburst.co.ls/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.14",
     "@radix-ui/react-label": "^2.1.2",
     "@radix-ui/react-slot": "^1.1.1",
     "@radix-ui/react-tabs": "^1.1.3",
@@ -23,6 +20,9 @@
     "lucide-react": "^0.474.0",
     "motion": "^12.5.0",
     "next": "15.1.4",
+    "next-optimized-images": "^2.6.2",
+    "npm-run-path": "^6.0.0",
+    "path-key": "^4.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.0.1",
