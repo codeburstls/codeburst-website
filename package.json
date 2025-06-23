@@ -2,7 +2,6 @@
   "name": "codeburst-website",
   "version": "0.1.0",
   "private": true,
-
   "homepage": "https://codeburst.co.ls/",
   "scripts": {
     "dev": "next dev",
@@ -26,7 +25,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.0.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "usehooks-ts": "^3.1.1",
+    "vaul": "^1.1.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
