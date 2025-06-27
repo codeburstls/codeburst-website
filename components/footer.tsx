@@ -84,8 +84,8 @@ export function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog" className="text-base text-gray-700 hover:text-blue-600">
-                      Blog
+                    <Link href="/onboarding" className="text-base text-gray-700 hover:text-blue-600">
+                      Onboarding
                     </Link>
                   </li>
                   <li>
@@ -104,8 +104,13 @@ export function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-base text-gray-700 hover:text-blue-600">
+                    <Link href="/terms" className="text-base text-gray-700 hover:text-blue-600">
                       Terms
+                    </Link>
+                  </li>
+                   <li>
+                    <Link href="/eula" className="text-base text-gray-700 hover:text-blue-600">
+                      EULA
                     </Link>
                   </li>
                 </ul>
