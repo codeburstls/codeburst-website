@@ -5,7 +5,7 @@ export default function EulaPage() {
                 <div className="text-center mb-12">
                     <h1 className="text-4xl font-bold mb-4 text-gray-900">End User License Agreement (EULA)</h1>
                     <p className="text-lg text-gray-600">
-                        This End User License Agreement ("Agreement") is entered into by and between the end user ("Licensee") and CodeBurst Pty Ltd (“Licensor”), a private company registered in Maseru East, Lesotho (Business ID: 200105876-3 | Registration No.: 74411), effective as of the date the Licensee accepts this Agreement.
+                        This End User License Agreement (&quot;Agreement&quot;) is entered into by and between the end user (&quot;Licensee&quot;) and CodeBurst Pty Ltd (“Licensor”), a private company registered in Maseru East, Lesotho (Business ID: 200105876-3 | Registration No.: 74411), effective as of the date the Licensee accepts this Agreement.
                     </p>
                 </div>
                 <div className="prose prose-lg max-w-none">

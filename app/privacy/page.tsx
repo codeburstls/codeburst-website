@@ -5,7 +5,7 @@ export default function PrivacyPage() {
                 <div className="text-center mb-12">
                     <h1 className="text-4xl font-bold mb-4 text-gray-900">Privacy Policy</h1>
                     <p className="text-lg text-gray-600">
-                        This Privacy Policy describes how CodeBurst Pty Ltd ("CodeBurst", "we", "us", or "our"), a private company registered in Maseru East, Lesotho (Business ID: 200105876-3 | Registration No.: 74411), collects, uses, discloses, and protects personal data of clients, users, and partners. This policy applies to all services, websites, applications, and platforms provided by CodeBurst.
+                        This Privacy Policy describes how CodeBurst Pty Ltd (&quot;CodeBurst&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), a private company registered in Maseru East, Lesotho (Business ID: 200105876-3 | Registration No.: 74411), collects, uses, discloses, and protects personal data of clients, users, and partners. This policy applies to all services, websites, applications, and platforms provided by CodeBurst.
                     </p>
                 </div>
 
@@ -32,7 +32,7 @@ export default function PrivacyPage() {
                         <h2 className="text-2xl font-bold text-blue-600 mb-4">2. Scope</h2>
                         <p className="text-gray-700 mb-4">This Privacy Policy applies to:</p>
                         <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
-                            <li>Clients and their end users interacting with CodeBurst's software solutions.</li>
+                            <li>Clients and their end users interacting with CodeBurst&apos;s software solutions.</li>
                             <li>Visitors to CodeBurst websites (e.g., <a href="https://codeburst.co.ls" className="text-blue-600 underline">https://codeburst.co.ls</a>) and online platforms.</li>
                             <li>Employees, contractors, and partners whose personal data is processed by CodeBurst.</li>
                         </ul>
@@ -164,7 +164,7 @@ export default function PrivacyPage() {
                     </section>
 
                     <section className="mb-8">
-                        <h2 className="text-2xl font-bold text-blue-600 mb-4">13. Children's Data</h2>
+                        <h2 className="text-2xl font-bold text-blue-600 mb-4">13. Children&apos;s Data</h2>
                         <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
                             <li>CodeBurst services are not directed to children under 18.</li>
                             <li>We do not knowingly collect Personal Data from children without parental consent.</li>

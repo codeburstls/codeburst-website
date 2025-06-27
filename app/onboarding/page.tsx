@@ -493,7 +493,7 @@ export default function OnboardingPage() {
                         Terms and Conditions *
                       </label>
                       <p className="text-xs text-gray-600">
-                        I agree to CodeBurst's Terms and Conditions governing our working relationship.
+                        I agree to CodeBurst&apos;s Terms and Conditions governing our working relationship.
                       </p>
                     </div>
                   </div>
@@ -509,7 +509,7 @@ export default function OnboardingPage() {
                         Human Rights & Ethics Policy *
                       </label>
                       <p className="text-xs text-gray-600">
-                        I acknowledge CodeBurst's commitment to human rights, equality, and ethical practices.
+                        I acknowledge CodeBurst&apos;s commitment to human rights, equality, and ethical practices.
                       </p>
                     </div>
                   </div>
@@ -525,7 +525,7 @@ export default function OnboardingPage() {
                         Security and Data Access Protocols *
                       </label>
                       <p className="text-xs text-gray-600">
-                        I agree to follow CodeBurst's security protocols and data access requirements.
+                        I agree to follow CodeBurst&apos;s security protocols and data access requirements.
                       </p>
                     </div>
                   </div>

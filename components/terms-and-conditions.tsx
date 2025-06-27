@@ -7,7 +7,7 @@ import { ScrollArea } from "@radix-ui/react-scroll-area";
                     <div className="p-4 text-sm">
                         <h4 className="mb-4 text-lg font-medium leading-none">Welcome to Our Service</h4>
                         <p className="mt-4 leading-7">
-                            These Terms and Conditions ("Agreement") govern the provision of services by CodeBurst Pty Ltd ("CodeBurst", "we", "us", or "our"), a private company registered in Maseru East, Lesotho (Business ID: 200105876-3 | Registration No.: 74411), to the client ("Client", "you", or "your"). By engaging CodeBurst for services, the Client agrees to these Terms and Conditions effective as of the date of acceptance.
+                            These Terms and Conditions (&quot;Agreement&quot;) govern the provision of services by CodeBurst Pty Ltd (&quot;CodeBurst&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), a private company registered in Maseru East, Lesotho (Business ID: 200105876-3 | Registration No.: 74411), to the client (&quot;Client&quot;, &quot;you&quot;, or &quot;your&quot;). By engaging CodeBurst for services, the Client agrees to these Terms and Conditions effective as of the date of acceptance.
                         </p>
                         <p className="mt-4 leading-7">
                         </p>
@@ -105,7 +105,7 @@ import { ScrollArea } from "@radix-ui/react-scroll-area";
                                             <strong>Performance Warranty:</strong> CodeBurst warrants that Services will be performed with reasonable skill and care consistent with industry standards.
                                         </li>
                                         <li>
-                                            <strong>Disclaimer:</strong> Except for the foregoing warranty, Services and Deliverables are provided 'as is'. CodeBurst disclaims all other warranties, express or implied, including fitness for a particular purpose.
+                                            <strong>Disclaimer:</strong> Except for the foregoing warranty, Services and Deliverables are provided &apos;as is&apos;. CodeBurst disclaims all other warranties, express or implied, including fitness for a particular purpose.
                                         </li>
                                         <li>
                                             <strong>No Guarantee:</strong> CodeBurst does not guarantee specific results or outcomes unless explicitly stated in the SOW.
