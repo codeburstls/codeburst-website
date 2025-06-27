@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Linkedin } from "lucide-react"
+import { Facebook, Twitter, Linkedin, Youtube } from "lucide-react"
 import Image from "next/image"
 
 export function Footer() {
@@ -17,17 +17,21 @@ export function Footer() {
             />
             <p className="text-gray-900 text-base">Driving digital solutions and innovation in Lesotho and beyond.</p>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-900 hover:text-blue-600">
+              <a href="https://www.facebook.com/codeburstls" target="_blank" rel="noopener" className="text-gray-900 hover:text-blue-600">
                 <span className="sr-only">Facebook</span>
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-900 hover:text-blue-600">
+              <a href="https://x.com/CodeBurst_ls?t=2d0zzl11UmuGlm5joT99CQ&s=09" target="_blank" rel="noopener" className="text-gray-900 hover:text-blue-600">
                 <span className="sr-only">Twitter</span>
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-900 hover:text-blue-600">
+              <a href="https://www.linkedin.com/company/codeburst-web3/" target="_blank" rel="noopener" className="text-gray-900 hover:text-blue-600">
                 <span className="sr-only">LinkedIn</span>
                 <Linkedin className="h-6 w-6" />
+              </a>
+              <a href="https://youtube.com/@codeburst_web3?feature=shared" target="_blank" rel="noopener"  className="text-gray-900 hover:text-blue-600">
+                <span className="sr-only">LinkedIn</span>
+                <Youtube className="h-6 w-6" />
               </a>
             </div>
           </div>
@@ -98,21 +102,22 @@ export function Footer() {
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">Legal</h3>
                 <ul className="mt-4 space-y-4">
-                  <li>
-                    <Link href="#" className="text-base text-gray-800 hover:text-blue-600">
-                      Privacy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/terms" className="text-base text-gray-700 hover:text-blue-600">
-                      Terms
-                    </Link>
-                  </li>
                    <li>
                     <Link href="/eula" className="text-base text-gray-700 hover:text-blue-600">
                       EULA
                     </Link>
                   </li>
+                  <li>
+                    <Link href="#" className="text-base text-gray-800 hover:text-blue-600">
+                      Privacy Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/terms" className="text-base text-gray-700 hover:text-blue-600">
+                      Terms and Conditions
+                    </Link>
+                  </li>
+                  
                 </ul>
               </div>
             </div>
