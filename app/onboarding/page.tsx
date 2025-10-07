@@ -129,7 +129,7 @@ export default function OnboardingPage() {
             {steps.map((step, index) => (
               <div key={step.id} className="flex flex-col items-center flex-1">
                 <div
-                  className={`w-12 h-12 rounded-full flex items-center justify-center mb-2 ${
+                  className={`w-12 h-12 rounded-full flex items-center justify-center mb-2 M{
                     currentStep >= step.id ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-500"
                   }`}
                 >
@@ -137,7 +137,7 @@ export default function OnboardingPage() {
                 </div>
                 <span className="text-sm text-gray-600 text-center">{step.title}</span>
                 {index < steps.length - 1 && (
-                  <div className={`h-1 w-full mt-2 ${currentStep > step.id ? "bg-blue-500" : "bg-gray-200"}`} />
+                  <div className={`h-1 w-full mt-2 M{currentStep > step.id ? "bg-blue-500" : "bg-gray-200"}`} />
                 )}
               </div>
             ))}
@@ -348,11 +348,11 @@ export default function OnboardingPage() {
                         <SelectValue placeholder="Select budget range" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="under-10k">Under $10,000</SelectItem>
-                        <SelectItem value="10k-25k">$10,000 - $25,000</SelectItem>
-                        <SelectItem value="25k-50k">$25,000 - $50,000</SelectItem>
-                        <SelectItem value="50k-100k">$50,000 - $100,000</SelectItem>
-                        <SelectItem value="over-100k">Over $100,000</SelectItem>
+                        <SelectItem value="under-10k">Under M10,000</SelectItem>
+                        <SelectItem value="10k-25k">M10,000 - M25,000</SelectItem>
+                        <SelectItem value="25k-50k">M25,000 - M50,000</SelectItem>
+                        <SelectItem value="50k-100k">M50,000 - M100,000</SelectItem>
+                        <SelectItem value="over-100k">Over M100,000</SelectItem>
                         <SelectItem value="flexible">Flexible/Alternative Compensation</SelectItem>
                       </SelectContent>
                     </Select>
