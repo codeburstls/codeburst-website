@@ -24,6 +24,7 @@ import { useMediaQuery } from "@/hooks/use-media-query"
 //import { Metadata } from "next";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { Textarea } from "@/components/ui/textarea";
 
 /*export const metadata: Metadata = {
   title: "Solutions | CodeBurst Lesotho",
@@ -151,8 +152,7 @@ const SolutionsPage = () => {
           type="text"
           id="name"
           name="name"
-          value={formData.name}
-          onChange={handleChange}
+         
           required
         />
       </div>
@@ -162,19 +162,15 @@ const SolutionsPage = () => {
           type="email"
           id="email"
           name="email"
-          value={formData.email}
-          onChange={handleChange}
           required
         />
       </div>
       <div className="grid gap-3">
         <Label htmlFor="message">Message</Label>
-        <Input
-
+        <Textarea
           id="message"
           name="message"
-          value={formData.message}
-          onChange={handleChange}
+          
           required
         />
       </div>
