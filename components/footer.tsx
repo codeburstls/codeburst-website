@@ -41,17 +41,17 @@ export function Footer() {
                 <h3 className="text-sm font-semibold text-gray-900 tracking-wider uppercase">Solutions</h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link href="#" className="text-base text-gray-800 hover:text-blue-600">
+                    <Link href="/solutions" className="text-base text-gray-800 hover:text-blue-600">
                       Software Development
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-base text-gray-900 hover:text-blue-600">
+                    <Link href="/solutions" className="text-base text-gray-900 hover:text-blue-600">
                       Blockchain Solutions
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-base text-gray-600 hover:text-blue-600">
+                    <Link href="/solutions" className="text-base text-gray-600 hover:text-blue-600">
                       Digital Education
                     </Link>
                   </li>
