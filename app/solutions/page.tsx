@@ -124,7 +124,9 @@ const SolutionsPage = () => {
   const isDesktop = useMediaQuery("(min-width: 768px)");
 
   // Handle form change
-  const handleChange = (e: { target: { name: string; value: string } }) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
@@ -152,7 +154,8 @@ const SolutionsPage = () => {
           type="text"
           id="name"
           name="name"
-         
+          value={formData.name}
+          onChange={handleChange}
           required
         />
       </div>
@@ -162,6 +165,8 @@ const SolutionsPage = () => {
           type="email"
           id="email"
           name="email"
+          value={formData.email}
+          onChange={handleChange}
           required
         />
       </div>
@@ -170,7 +175,8 @@ const SolutionsPage = () => {
         <Textarea
           id="message"
           name="message"
-          
+          value={formData.message}
+          onChange={handleChange}
           required
         />
       </div>
